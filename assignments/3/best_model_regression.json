@@ -1,0 +1,14 @@
+{
+  "input_size": 13,
+  "output_size": 1,
+  "hidden_layers": [64, 32],
+  "activation": "sigmoid",
+  "optimizer": "sgd",
+  "learning_rate": 0.01,
+  "batch_size": 32,
+  "epochs": 100,
+  "early_stopping": true,
+  "patience": 10,
+  "wandb_log": true,
+  "task_type": "regression"
+}

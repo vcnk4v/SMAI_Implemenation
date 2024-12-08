@@ -1,0 +1,14 @@
+{
+  "input_size": 11,
+  "output_size": 6,
+  "hidden_layers": [64, 32],
+  "activation": "sigmoid",
+  "optimizer": "mini_batch",
+  "learning_rate": 0.1,
+  "batch_size": 128,
+  "epochs": 100,
+  "early_stopping": true,
+  "patience": 5,
+  "wandb_log": false,
+  "task_type": "classification"
+}
